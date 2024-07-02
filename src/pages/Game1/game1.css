@@ -1,0 +1,16 @@
+#divWinner {
+  flex-direction: column;
+}
+#divWinner > h3 {
+  color: var(--jea-color-secundary);
+  font-weight: 600;
+}
+button {
+  padding: var(--jea-padding-s);
+  font-weight: 600;
+  color: white;
+  background-color: var(--jea-color-tertiary);
+  border: none;
+  border-radius: var(--jea-radius-secundary);
+  cursor: pointer;
+}

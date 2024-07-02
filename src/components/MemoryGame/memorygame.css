@@ -1,0 +1,32 @@
+#cardboard {
+  max-width: 560px;
+  flex-wrap: wrap;
+  gap: var(--jea-gap-xl);
+  margin: var(--jea-margin-l);
+}
+
+.cards {
+  width: 120px;
+  height: 130px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.flipped {
+  background-color: #aa256e !important;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  transition: all 0.5s;
+}
+
+#winMG {
+  font-weight: 700;
+  background: linear-gradient(
+    45deg,
+    var(--jea-color-primary),
+    var(--jea-color-tertiary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.6rem;
+}

@@ -1,0 +1,12 @@
+#scoreKtF {
+  font-weight: 700;
+  background: linear-gradient(
+    45deg,
+    var(--jea-color-primary),
+    var(--jea-color-tertiary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.6rem;
+}
