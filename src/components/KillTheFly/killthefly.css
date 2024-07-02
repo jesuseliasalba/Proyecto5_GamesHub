@@ -4,7 +4,7 @@
   border: 2px solid var(--jea-color-black);
   border-radius: var(--jea-radius-secundary);
   position: relative;
-  background-image: url("./game3/BackgroundFlysGame.png");
+  background-image: url("/game3/BackgroundFlysGame.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
