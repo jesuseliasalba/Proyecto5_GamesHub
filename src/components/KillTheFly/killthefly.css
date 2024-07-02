@@ -22,6 +22,7 @@
   height: 70px;
   width: 70px;
   cursor: pointer;
+  transition: all 0.7s;
 }
 
 @media (max-width: 700px) {
